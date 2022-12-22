@@ -13,7 +13,7 @@
 
 @media (max-width: 1024px) {
   .cover {
-    min-height: 62.5vw;;
+    min-height: 62.5vw;
     background-size: contain;
   }
 }
