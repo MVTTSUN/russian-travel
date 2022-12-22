@@ -1,0 +1,26 @@
+.places {
+  max-width: 984px;
+  color: #FFF;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
