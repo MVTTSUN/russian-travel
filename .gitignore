@@ -1,0 +1,8 @@
+*.json
+
+node_modules
+dist
+
+webpack.config.js
+
+index.js
