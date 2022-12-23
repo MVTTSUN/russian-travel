@@ -1,4 +1,5 @@
 .places__link {
+  border-bottom: 1px solid white;
   font-size: 18px;
   line-height: 22px;
 }
