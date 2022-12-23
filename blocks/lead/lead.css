@@ -1,4 +1,5 @@
 .lead {
+  margin: 0 auto 92px;
   max-width: 984px;
   color: #FFF;
 }
@@ -6,5 +7,17 @@
 @media (max-width: 1024px) {
   .lead {
     max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    margin-bottom: 64px;
   }
 }

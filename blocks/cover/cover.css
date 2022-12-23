@@ -1,4 +1,5 @@
 .cover {
+  margin: 0 auto 92px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,5 +16,17 @@
   .cover {
     min-height: 62.5vw;
     background-size: contain;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    margin-bottom: 64px;
   }
 }

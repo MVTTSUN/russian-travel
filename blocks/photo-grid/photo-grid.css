@@ -1,4 +1,5 @@
 .photo-grid {
+  margin: 0 auto 92px;
   display: grid;
   max-width: 1184px;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
@@ -18,6 +19,7 @@
   .photo-grid {
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 88px;
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     gap: 16px;
   }
@@ -27,6 +29,7 @@
   .photo-grid {
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 64px;
     grid-template-columns: 1fr;
     gap: 12px;
   }
